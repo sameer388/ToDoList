@@ -13,7 +13,7 @@ app.use(express.static("public"));
 
 
 //in place of array we use mongo db
-mongoose.connect("mongodb+srv://admin-sameer:Test123@cluster0.ztnrste.mongodb.net/todoListDB", { useNewUrlParser: true });
+mongoose.connect("<edit your database URL here>", { useNewUrlParser: true });
 const ItemSchema = {
   name: String
 };
